@@ -1,0 +1,12 @@
+diff -r f6cacdc34495 runtime/filetype.vim
+--- a/runtime/filetype.vim	Wed Aug 07 21:13:23 2013 +0200
++++ b/runtime/filetype.vim	Fri Aug 09 23:50:54 2013 +0900
+@@ -2049,6 +2049,9 @@
+ " Sysctl
+ au BufNewFile,BufRead */etc/sysctl.conf,*/etc/sysctl.d/*.conf	setf sysctl
+ 
++" SystemVerilog
++au BufNewFile,BufRead *.sv			setf systemverilog
++
+ " Synopsys Design Constraints
+ au BufNewFile,BufRead *.sdc			setf sdc
