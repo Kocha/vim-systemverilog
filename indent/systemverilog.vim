@@ -1,6 +1,7 @@
 " Vim indent file
-" Language:	SystemVerilog
-"
+" Language:    SystemVerilog
+" Maintainer:  kocha <kocha.lsifrontend@gmail.com>
+" Last Change: 12-Aug-2013. 
 
 " Only load this indent file when no other was loaded.
 if exists("b:did_indent")

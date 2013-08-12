@@ -1,5 +1,7 @@
 " Vim syntax file
-" Language:	SystemVerilog
+" Language:    SystemVerilog
+" Maintainer:  kocha <kocha.lsifrontend@gmail.com>
+" Last Change: 12-Aug-2013. 
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
