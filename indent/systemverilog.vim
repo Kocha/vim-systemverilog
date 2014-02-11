@@ -131,9 +131,7 @@ function SystemVerilogIndent()
     \ last_line =~ '\(//\|/\*\).*\<begin\>' ) &&
     \ last_line2 =~ '\<\(`\@<!if\|`\@<!else\|for\|always\|initial\|do\|foreach\|final\)\>.*' .
       \ sv_comment . '*$' &&
-    \ last_line2 !~
-      \
-    '\(//\|/\*\).*\<\(`\@<!if\|`\@<!else\|for\|always\|initial\|do\|foreach\|final\)\>' &&
+    \ last_line2 !~ '\(//\|/\*\).*\<\(`\@<!if\|`\@<!else\|for\|always\|initial\|do\|foreach\|final\)\>' &&
     \ last_line2 !~ sv_openstat . '\s*' . sv_comment . '*$' &&
     \ ( last_line2 !~ '\<begin\>' ||
     \ last_line2 =~ '\(//\|/\*\).*\<begin\>' )
