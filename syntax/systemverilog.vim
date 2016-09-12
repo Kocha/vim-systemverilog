@@ -59,6 +59,8 @@ syn keyword systemverilogRepeat      do foreach
 
 syn keyword systemverilogLabel       join_any join_none forkjoin
 
+syn match   systemverilogNumber      "'[01xXzZ]"
+
 " IEEE1800-2009 add
 syn keyword systemverilogStatement   checker endchecker
 syn keyword systemverilogStatement   accept_on reject_on
